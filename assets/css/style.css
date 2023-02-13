@@ -57,6 +57,10 @@ body {
     width: 100vw;
     min-width: 1152px;
 }
+.app-footer{
+    background-color: var(--bd-dark);
+    width: 100%;
+}
 .logo,.register{
     width: 50%;
     align-self: center;
@@ -126,6 +130,9 @@ body {
 }
 .right30{
     width: 30%;
+}
+.card{
+    width: calc(100% / 12 * 5);
 }
 /* /rules */
 
@@ -199,6 +206,20 @@ body {
     background-color: lightgreen;
     border: 1px solid black;
 }
+.debug .app-footer{
+    height: 40rem;
+}
+.debug .cards{
+    height: 80%;
+    background-color: green;
+    border: 1px solid black;
+}
+.debug .card{
+    height: 100%;
+    background-color: violet;
+    border: 1px dotted black;
+}
+
 /* /.debug */
 
 
