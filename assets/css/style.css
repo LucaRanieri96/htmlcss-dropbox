@@ -83,12 +83,20 @@ body {
     height: 30rem;
 }
 .logos{
+    
     width: 100%;
-    min-width: 1152px
+    min-width: 1152px;
 }
 .agency{
+    
     width: 100%;
-    min-width: 1152px}
+    min-width: 1152px;
+}
+.FAQ{
+    
+    width: 100%;
+    min-width: 1152px;
+}
 
 .container-l{
     width: 80%;
@@ -186,7 +194,11 @@ body {
     background-color: lightgreen;
     border: 1px solid black;
 }
-
+.debug .FAQ{
+    height: 25rem;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
 /* /.debug */
 
 
