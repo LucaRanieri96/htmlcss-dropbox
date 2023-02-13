@@ -66,26 +66,37 @@ body {
     width: 100%;
     min-width: 1152px;
 } 
-.container-l{
+.plans{
+    margin: 2rem;
+    height: 80rem;
+}
+.meet-us{
     height: 40rem;
+}
+.container-l{
     width: 80%;
     margin: auto;
 }
 .container-m{
-    height: 80rem;
     width: 70%;
     margin: auto;
 }   
 .row{
+   
     width: 100%;
 }
 .row .col-4{
     height: 100%;
-    width: 33.33%;
+    width: calc(100% / 12 * 4 );
 }
 .row .col-12{
-    height: 20%;
     width: 100%;
+}
+.left70{
+    width: 70%;
+}
+.right30{
+    width: 30%;
 }
 /* /rules */
 
@@ -105,15 +116,17 @@ body {
     border: 1px solid black;
 } 
 .debug .container-m{
+    height: 100%;
     border: 1px solid black;
     background-color: green;
 }    
 .debug .container-l{
+    height: 40rem;
     background-color: lightgreen;
     border: 1px solid black;
 } 
 .debug .row{
-    height: 100%;
+    height: 90%;
     background-color: pink;
     border: 1px solid black;
 }
@@ -125,6 +138,16 @@ body {
 }
 .debug .col-12{
     height: 20%;
+    background-color: violet;
+    border: 1px dotted black;
+}
+.debug .left70{
+    height: 100%;
+    background-color: violet;
+    border: 1px dotted black;
+}
+.debug .right30{
+    height: 100%;
     background-color: violet;
     border: 1px dotted black;
 }
