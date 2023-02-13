@@ -81,17 +81,18 @@ body {
 }
 .row .col-4{
     height: 100%;
-    width: calc(100% / 4 * 3);
+    width: 33.33%;
 }
 .row .col-12{
-    width: calc(100% / 4 * 12);
+    height: 20%;
+    width: 100%;
 }
 /* /rules */
 
 /* .debug */
 .debug .app-header{
     height: 5rem;
-    background-color: var(--bd-florida);
+    background-color: darkgrey;
 }
 .debug .logo,.register{
     height: 4.5rem;
@@ -127,6 +128,7 @@ body {
     background-color: violet;
     border: 1px dotted black;
 }
+/* /.debug */
 
 
 
