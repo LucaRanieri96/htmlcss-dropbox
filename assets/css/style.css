@@ -57,6 +57,7 @@ body {
 .greyborder{
     padding: 1rem 1rem 1rem 1rem;
     border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .margin-bot{
     margin-bottom: 2rem;
