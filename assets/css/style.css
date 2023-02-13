@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root
+{
+  --bd-dark: #000000;
+  --bd-white: #ffffff;
+  --bd-primary: #b4d0e7;
+  --bd-button: #0d2481;
+  /* colori banner icone */
+  --bd-designit: #a2d39b;
+  --bd-florida: #0093ce;
+  --bd-asu: #61082b;
+  --bd-topps: #ff1c1c;
+  --bd-desigrey: #f5f5f5;
+  --bd-bicycle: #d5001f;
+  --bd-planet: #0061ff;
+  --bd-hearts: #b4d0e7;
+  --bd-clear: #ffd830;
+}
