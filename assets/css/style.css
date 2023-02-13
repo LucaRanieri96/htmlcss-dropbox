@@ -68,10 +68,15 @@ body {
 } 
 .plans{
     margin: 2rem;
-    height: 80rem;
+    height: 100rem;
 }
 .meet-us{
+    margin: 2rem;
     height: 40rem;
+}
+.business{
+    margin: 2rem;
+    height: 70rem;
 }
 .container-l{
     width: 80%;
@@ -82,15 +87,19 @@ body {
     margin: auto;
 }   
 .row{
-   
     width: 100%;
 }
+   
 .row .col-4{
     height: 100%;
     width: calc(100% / 12 * 4 );
 }
 .row .col-12{
     width: 100%;
+}
+.row .col-2{
+    height: 50%;
+    width: calc(100% / 12 * 4 );
 }
 .left70{
     width: 70%;
@@ -148,6 +157,10 @@ body {
 }
 .debug .right30{
     height: 100%;
+    background-color: violet;
+    border: 1px dotted black;
+}
+.row .col-2{
     background-color: violet;
     border: 1px dotted black;
 }
