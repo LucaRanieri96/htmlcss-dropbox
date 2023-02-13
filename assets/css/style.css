@@ -82,6 +82,11 @@ body {
     margin: 2rem;
     height: 30rem;
 }
+.logos{
+    width: 100%;
+    min-width: 1152px
+}
+
 .container-l{
     width: 80%;
     margin: auto;
@@ -167,6 +172,11 @@ body {
 .row .col-2{
     background-color: violet;
     border: 1px dotted black;
+}
+.debug .logos{
+    height: 40rem;
+    background-color: lightgreen;
+    border: 1px solid black;
 }
 /* /.debug */
 
