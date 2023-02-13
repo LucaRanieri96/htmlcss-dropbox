@@ -62,5 +62,16 @@ body {
     background-color: orange;
     align-self: center;
 }
-    
+.debug .app-main{
+    min-height: 200rem;
+    background-color: lightgray;
+    width: 100%;
+}     
+.debug .container-l{
+    height: 40rem;
+    width: 80%;
+    margin: auto;
+    background-color: lightgreen;
+
+} 
     
