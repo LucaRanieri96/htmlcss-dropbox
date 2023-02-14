@@ -229,12 +229,10 @@ p {
 
 .business {
     margin: 2rem;
-    height: 70rem;
 }
 
 .teams {
     margin: 2rem;
-    height: 30rem;
 }
 
 .logos {
@@ -275,6 +273,7 @@ p {
 .row .col-2 {
     height: 50%;
     width: calc(100% / 12 * 4);
+    padding: 2rem;
 }
 
 .card {
@@ -341,10 +340,10 @@ p {
     background-color: violet;
     border: 1px dotted black;
 } */
-.row .col-2 {
+/* .row .col-2 {
     background-color: violet;
     border: 1px dotted black;
-}
+} */
 
 .debug .logos {
     height: 40rem;
