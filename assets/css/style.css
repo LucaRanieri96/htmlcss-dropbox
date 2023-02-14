@@ -174,7 +174,11 @@ p {
     font-size: 1.2rem;
     width: 100%;
 }
-
+.greybutton{
+    width: max-content;
+    padding: 1rem;
+    border: 1px solid grey;
+}
 .inizia {
     height: 30px;
     width: 60px;
