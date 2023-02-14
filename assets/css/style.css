@@ -73,9 +73,11 @@ body {
 .margin-bot {
     margin-bottom: 2rem;
 }
-.margin-left1rem{
+
+.margin-left1rem {
     margin-left: 1rem;
 }
+
 .margin-bot1rem {
     margin-bottom: 1rem;
 }
@@ -108,12 +110,15 @@ a {
 .right30 {
     width: 30%;
 }
-.imgs{
+
+.imgs {
     width: 90%;
 }
-.padding2rem{
+
+.padding2rem {
     padding: 4rem 2rem 2rem 2rem;
 }
+
 /* /Utilities */
 /* rules */
 
@@ -177,11 +182,13 @@ p {
     font-size: 1.2rem;
     width: 100%;
 }
-.greybutton{
+
+.greybutton {
     width: max-content;
     padding: 1rem;
     border: 1px solid grey;
 }
+
 .inizia {
     height: 30px;
     width: 60px;
@@ -213,10 +220,6 @@ p {
     min-width: 1152px;
 }
 
-.plans {
-    margin: 2rem;
-}
-
 .checkmarks {
     font-size: 1.2rem;
     color: #0061ff;
@@ -226,42 +229,28 @@ p {
     margin-bottom: 2rem;
 }
 
-.meet-us {
+.meet-us,
+.business,
+.teams,
+.plans {
     margin: 2rem;
 }
 
-.business {
-    margin: 2rem;
-}
 
-.teams {
-    margin: 2rem;
-}
+.logos,
+.agency,
+.FAQ,
+.app-footer,
+.row {
 
-.logos {
-
-    width: 100%;
-    min-width: 1152px;
-}
-
-.agency {
-    width: 100%;
-    min-width: 1152px;
-}
-
-.FAQ {
     width: 100%;
     min-width: 1152px;
 }
 
 .app-footer {
     background-color: var(--bd-dark);
-    width: 100%;
 }
 
-.row {
-    width: 100%;
-}
 
 .row .col-4 {
     width: calc(95% / 12 * 4);
