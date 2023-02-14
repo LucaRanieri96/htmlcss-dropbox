@@ -85,7 +85,7 @@ a {
     color: var(--bd-dark);
 }
 
-#real-link {
+.real-link {
     text-decoration: underline;
     color: #0061ff;
 }
@@ -98,7 +98,7 @@ a {
 .container-m {
     width: 60%;
     margin: auto;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
 }
 
 .left70 {
@@ -110,6 +110,9 @@ a {
 }
 .imgs{
     width: 90%;
+}
+.padding2rem{
+    padding: 4rem 2rem 2rem 2rem;
 }
 /* /Utilities */
 /* rules */
