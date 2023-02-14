@@ -130,7 +130,10 @@ a {
     margin: auto;
     margin-bottom: 12rem;
 }
-
+.container-business{
+    width: 60%;
+    margin: auto;
+}
 .left70 {
     width: 70%;
 }
@@ -146,6 +149,7 @@ a {
 .padding2rem {
     padding: 4rem 2rem 2rem 2rem;
 }
+
 
 /* /Utilities */
 /* rules */
@@ -222,9 +226,17 @@ p {
     padding: 1rem;
     border: 1px solid grey;
 }
-.greybutton:hover {
+.greybutton:hover,
+.greybutton2:hover {
     border: 2px solid black;
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.greybutton2{
+    background-color: var(--bd-desigrey);
+    text-align: center;
+    width: 20%;
+    padding: 1rem;
 }
 
 .inizia {
@@ -270,7 +282,6 @@ p {
 }
 
 .meet-us,
-.business,
 .teams,
 .plans {
     margin: 2rem;
@@ -285,6 +296,10 @@ p {
 
     width: 100%;
     min-width: 1152px;
+}
+.agency{
+    background-color: var(--bd-hearts);
+    
 }
 .square{
     width: calc(100% / 12 * 4);
@@ -328,6 +343,11 @@ p {
 
 .card {
     width: calc(100% / 12 * 5);
+}
+.business{
+    padding: 10rem 0rem;
+    color: var(--bd-asu);
+    width: 60%;
 }
 
 /* /rules */
@@ -400,11 +420,11 @@ p {
     border: 1px solid black;
 } */
 
-.debug .agency {
-    height: 20rem;
+/* .debug .agency {
+    
     background-color: lightgreen;
     border: 1px solid black;
-}
+} */
 
 .debug .FAQ {
     height: 25rem;
