@@ -60,6 +60,9 @@ svg{
 .forcedwhite{
     filter: invert();
 }
+#h-1-5rem {
+    height: 1.5rem;
+}
 .d-flex {
     display: flex;
     flex-direction: row;
@@ -162,7 +165,7 @@ a {
 
 
 .app-header {
-    width: 100vw;
+    width: 100%;
     min-width: 1152px;
     position: sticky;
     top: 0;
