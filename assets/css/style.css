@@ -319,10 +319,10 @@ p {
 }
 .square{
     width: calc(100% / 12 * 4);
-    aspect-ratio: 1/1;
+    height: calc(100vw / 12 * 4);
 }
 .square-center{
-    padding: 6rem;
+    padding: 1.15rem;
     justify-content: space-evenly;
     background-color: var(--bd-desigrey);
 }
