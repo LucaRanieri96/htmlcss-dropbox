@@ -1,4 +1,7 @@
+/* font troppo grandi */
 /* Utili.tileties */
+
+
 * {
     padding: 0;
     margin: 0;
@@ -99,12 +102,17 @@ svg{
 .space-even {
     justify-content: space-evenly;
 }
-
+.greyborder-title{
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
 .greyborder {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
     border: 1px solid grey;
 }
-
+.negative-margin{
+    margin: -1rem -1rem 0 -1rem;
+}
 .margin-bot {
     margin-bottom: 2rem;
 }
@@ -128,12 +136,12 @@ a {
 }
 
 .container-l {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
 .container-m {
-    width: 60%;
+    width: 50%;
     margin: auto;
     margin-bottom: 12rem;
 }
@@ -184,13 +192,12 @@ a {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 8rem;
     padding: 2rem 0 4rem 0;
 }
 #arrow-jumbo{
     font-size: 4rem; 
-    padding: 1rem 0;
 }
 h2 {
     font-size: 3rem;
@@ -202,7 +209,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: normal;
     font-weight: normal;
 }
